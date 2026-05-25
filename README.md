@@ -1,15 +1,15 @@
-# Mggwxyz Bonsai
+# Mggwxyz Tap
 
 ## How do I install these formulae?
 
-`brew install mggwxyz/bonsai/<formula>`
+`brew install mggwxyz/tap/<formula>`
 
-Or `brew tap mggwxyz/bonsai` and then `brew install <formula>`.
+Or `brew tap mggwxyz/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
 ```ruby
-tap "mggwxyz/bonsai"
+tap "mggwxyz/tap"
 brew "<formula>"
 ```
 
