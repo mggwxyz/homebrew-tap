@@ -6,9 +6,8 @@ class Bonsai < Formula
 
   desc "Manage per-branch git worktrees with ports and Caddy URLs"
   homepage "https://github.com/mggwxyz/bonsai"
-  url "https://github.com/mggwxyz/bonsai.git", tag: "v0.1.3"
+  url "https://github.com/mggwxyz/bonsai.git", tag: "v0.1.4"
   license "MIT"
-  revision 1
 
   depends_on "caddy"
   depends_on "python@3.12"
