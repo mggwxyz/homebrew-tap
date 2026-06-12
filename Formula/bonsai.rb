@@ -6,8 +6,8 @@ class Bonsai < Formula
 
   desc "Manage per-branch git worktrees with ports and Caddy URLs"
   homepage "https://github.com/mggwxyz/bonsai"
-  url "https://github.com/mggwxyz/bonsai/archive/refs/tags/v0.8.0.tar.gz"
-  sha256 "37ae67d6c4aedb6d2f1b6d3f5983c1f3ab8b2cae00c03cd591d90f3f2f0ce451"
+  url "https://github.com/mggwxyz/bonsai/archive/refs/tags/v0.8.1.tar.gz"
+  sha256 "eb23660c2ece5322f198bc2226efde417bd650bf84c2d4c5682ddd31896533d2"
   license "MIT"
 
   depends_on "caddy"
