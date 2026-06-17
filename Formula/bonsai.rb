@@ -12,6 +12,7 @@ class Bonsai < Formula
 
   def install
     system "bun", "install", "--frozen-lockfile"
+    system "bun", "--filter", "@bonsai/core", "build"
     system "bun", "build", "apps/bonsai/src/main.ts", "--compile", "--outfile", "bonsai"
     bin.install "bonsai"
   end
