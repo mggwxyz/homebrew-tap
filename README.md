@@ -1,18 +1,21 @@
-# Mggwxyz Tap
+# homebrew-tap
 
-## How do I install these formulae?
+Personal Homebrew tap for [@mggwxyz](https://github.com/mggwxyz)'s tools.
 
-`brew install mggwxyz/tap/<formula>`
+## Install
 
-Or `brew tap mggwxyz/tap` and then `brew install <formula>`.
-
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "mggwxyz/tap"
-brew "<formula>"
+```sh
+brew install mggwxyz/tap/bonsai
 ```
 
-## Documentation
+## Formulae
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Formula | Description | Source |
+| --- | --- | --- |
+| `bonsai` | Manage per-branch git worktrees with ports and Caddy URLs | [mggwxyz/bonsai](https://github.com/mggwxyz/bonsai) |
+
+## Updating
+
+```sh
+brew upgrade bonsai
+```
