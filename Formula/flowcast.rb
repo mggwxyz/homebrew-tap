@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
 # Homebrew formula for flowcast (Node build-from-source).
-# Edit this in the flowcast repository: the release workflow copies it to the tap.
-# `tag:` must name a pushed origin tag, so the copy happens only after that tag exists.
+# Edit this in the flowcast repository; it is copied to the tap after each release.
+# `tag:` must name a pushed origin tag, so copy it only after that tag exists.
 class Flowcast < Formula
   desc "Record, test, and demonstrate web app interactions with Playwright"
   homepage "https://github.com/mggwxyz/flowcast"
